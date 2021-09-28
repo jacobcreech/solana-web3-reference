@@ -2,6 +2,10 @@ import { BinaryReader, BinaryWriter, deserializeUnchecked } from "borsh";
 import { PublicKey } from "@solana/web3.js";
 import base58 from "bs58";
 
+/*
+ * From https://gist.github.com/dvcrn/c099c9b5a095ffe4ddb6481c22cde5f4
+ */
+
 export const METADATA_PROGRAM_ID =
   "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s" as StringPublicKey;
 export const METADATA_PREFIX = "metadata";
