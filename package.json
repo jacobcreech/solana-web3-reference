@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "nft": "tsc -p . && node src/get-account-nfts/getAccountNFTs.js"
+    "build": "tsc -p .",
+    "get-all-accounts": "yarn run build && node src/get-all-accounts/getAllAccounts.js",
+    "nft": "yarn run build && node src/get-account-nfts/getAccountNFTs.js"
   },
   "repository": {
     "type": "git",

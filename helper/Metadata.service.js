@@ -43,6 +43,9 @@ exports.decodeMetadata = exports.getMetadataAccount = exports.MetadataKey = expo
 var borsh_1 = require("borsh");
 var web3_js_1 = require("@solana/web3.js");
 var bs58_1 = __importDefault(require("bs58"));
+/*
+ * From https://gist.github.com/dvcrn/c099c9b5a095ffe4ddb6481c22cde5f4
+ */
 exports.METADATA_PROGRAM_ID = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s";
 exports.METADATA_PREFIX = "metadata";
 var PubKeysInternedMap = new Map();

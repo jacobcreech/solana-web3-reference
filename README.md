@@ -4,7 +4,17 @@
 
 Run `npm install`
 
-## Get Metaplex NFT Metadata
+## Examples
+
+### Get All SPL Accounts by Owner
+
+| SourceCode |
+| --- | 
+| [getAllAccounts.ts](src/get-all-accounts/getAllAccounts.ts) |
+
+Run `npm run get-all-accounts` to test
+
+### Get Metaplex NFT Metadata
 
 | SourceCode |
 | --- | 
