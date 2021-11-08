@@ -5,7 +5,7 @@ const {TOKEN_PROGRAM_ID} = require('@solana/spl-token');
 
 (async () => {
 
-  let publicKey = new PublicKey('B3fe93AFXriKDq2Ga5rbiPw6bjPn9qqrnposbzdfSfqp');
+  let publicKey = new PublicKey('BeTs1yXy4JzLSmg674qkBzxoCNhp2KZFTn8qqDgi5mVJ');
   let connection = new Connection(clusterApiUrl('mainnet-beta'), 'confirmed');
 
   let response = await connection.getParsedTokenAccountsByOwner(
