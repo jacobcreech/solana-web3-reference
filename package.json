@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc -p .",
     "get-all-accounts": "yarn run build && node src/get-all-accounts/getAllAccounts.js",
-    "nft": "yarn run build && node src/get-account-nfts/getAccountNFTs.js"
+    "nft": "yarn run build && node src/get-account-nfts/getAccountNFTs.js",
+    "token": "yarn run build && node src/token-testing/tokenTesting.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
   },
   "homepage": "https://github.com/cryptogosu/solana-web3-reference#readme",
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^0.0.2",
+    "@metaplex/js": "^4.10.0",
+    "@solana/spl-name-service": "^0.1.3",
     "@solana/spl-token": "^0.1.8",
     "@solana/web3.js": "^1.29.1",
     "@types/bs58": "^4.0.1",
